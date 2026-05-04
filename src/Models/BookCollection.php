@@ -1,6 +1,6 @@
 <?php
 namespace src\Models;
-class BookCollection extends Book { 
+class BookCollection  { 
     private array $books = [];
    
     public function addBook(Book $book): self {
@@ -11,8 +11,8 @@ class BookCollection extends Book {
         return $this->books[$id] ?? null;
         
     }
-    public function getBooks(): array {
-        return $this->books;
+    public static function getBooks(): array {
+        return self::$books;
     }
     public function count(): int {
         return \count($this->books);
