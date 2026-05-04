@@ -1,5 +1,5 @@
 <?php
-namespace src\Models;
+namespace App\Models;
 
 use App\Contracts\Discountable;
 use App\Models\Timestampable;

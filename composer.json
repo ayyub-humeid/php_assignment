@@ -1,0 +1,14 @@
+{
+    "name": "ayoub/elancer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "ayyub humeid",
+        "email": "ayoubhumeid@gmail.com"
+    }],
+    "require": {}
+}
