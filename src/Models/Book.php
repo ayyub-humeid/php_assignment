@@ -8,9 +8,15 @@ class Book implements Discountable {
    
     public function applyDiscount(float $pct): float
     {
-        $discountAmount = $this->price * ($pct / 100);
-        $this->price -= $discountAmount;
-        return $this->price;
+        // $discountAmount = $this->price * ($pct / 100);
+        // $this->price -= $discountAmount;
+        // return $this->price;
+        if($pct < 0 || $pct > 100){
+            throw new \InvalidArgumentException("Discount percentage must be between 0 and 100");
+        }
+            $discountAmount = $this->price * ($pct / 100);
+            $this->price -= $discountAmount;
+            return $this->price;
     }
 public function __construct(
 // TODO: promote
