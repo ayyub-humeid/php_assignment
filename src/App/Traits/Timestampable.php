@@ -1,5 +1,5 @@
 <?php
-namespace App\Models;
+namespace App\Traits;
 trait Timestampable {
     private string $createdAt;
 

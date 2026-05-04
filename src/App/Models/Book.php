@@ -2,7 +2,7 @@
 namespace App\Models;
 
 use App\Contracts\Discountable;
-use App\Models\Timestampable;
+use App\Traits\Timestampable;
 class Book implements Discountable {
     use Timestampable;
    
