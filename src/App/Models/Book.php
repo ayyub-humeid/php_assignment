@@ -22,8 +22,8 @@ public function __construct(
 public string $title,
  public string $author,
  public float $price,
- public int $stock = 0,
    readonly int $id,
+ public int $stock = 0,
 ) {
     $this->initTimestamps();
 }
