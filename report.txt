@@ -1,0 +1,6 @@
+[1] Dune by Frank Herbert —$18.99 (3 in stock) 
+[2] 1984 by George Orwell —$12.5 (0 in stock) 
+[3] Neuromancer by William Gibson —$14.99 (5 in stock) 
+[4] Brave New World by Aldous Huxley —$11 (0 in stock) 
+[5] The Hobbit by J.R.R. Tolkien —$15.75 (8 in stock) 
+Total inventory value: $257.92
